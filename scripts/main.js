@@ -29,4 +29,15 @@ document.addEventListener("DOMContentLoaded", function buildTable(){
 		}
 		table.appendChild(tr);
 	}
+	
+	function createTableCell(value){
+	var $td = document.createElement('td');
+	$td.textContent = value;
+	if(value === 1){
+		$td.classList.add('alive');
+	} else {
+		$td.classList.add('dead');
+	}
+	return $td;
+}
 });

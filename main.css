@@ -3,3 +3,15 @@ table tr td {
 	border-color: black;
 	border-width: 1px;
 }
+
+td.alive {
+	background-color: black;
+}
+
+td.dead {
+	background-color: white;
+}
+
+td {
+	padding: 1em;
+}
